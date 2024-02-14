@@ -3,13 +3,13 @@ import Layout from "../../layout/Layout";
 import "./Home.style.css";
 import CardVisa from "../../components/Fragments/Card/CardVisa";
 import CardTotalBalance from "../../components/Fragments/Card/CardTotalBalance";
-import ButtonAddItem from "../../components/Elements/Button/ButtonAddItem";
-import { BsEmojiSmile, BsPlus } from "react-icons/bs";
-import CheckboxItem from "../../components/Elements/CheckboxItem/CheckboxItem";
-import { iconDocChat, iconPersonChat2, iconProfileUser } from "../../../image";
-import ButtonSendChat from "../../components/Elements/Button/ButtonSendChat";
 import CardItemBuy from "../../components/Fragments/Card/CardItemBuy";
 import CardChat from "../../components/Fragments/Card/CardChat";
+import { BsThreeDotsVertical } from "react-icons/bs";
+import { dataListTransaction } from "../../components/DataComponents/DataComponents";
+
+import CardTransactions from "../../components/Fragments/Card/CardTransactions";
+import CardAnalytics from "../../components/Fragments/Card/CardAnalytics";
 
 const Home = () => {
   return (
@@ -34,12 +34,12 @@ const Home = () => {
             </div>
           </div>
 
-          <div className="row">
-            <div className="col-lg-6">
-              <p>total balance</p>
+          <div className="row mt-3">
+            <div className="col-lg-7">
+              <CardTransactions />
             </div>
-            <div className="col-lg-6">
-              <p>visa</p>
+            <div className="col-lg-5">
+              <CardAnalytics />
             </div>
           </div>
         </div>
