@@ -15,6 +15,7 @@ const Home = () => {
   return (
     <Layout>
       <section className="row home">
+        {/* layout left */}
         <div className="col-lg-8">
           <div className="row">
             <div className="col-lg-6 d-flex align-items-stretch">
@@ -43,6 +44,8 @@ const Home = () => {
             </div>
           </div>
         </div>
+
+        {/* layout right */}
         <div className="col-lg-4 bg-white rounded-3 p-3">
           <CardExpenses />
 

@@ -9,6 +9,7 @@ import iconOnlineStore from "./src/assets/onlineStore.png";
 import iconPayHospital from "./src/assets/payHospital.png";
 import iconTicket from "./src/assets/ticket.png";
 import iconCrown from "./src/assets/crown.png";
+import iconTopBar from "./src/assets/iconTopBar.png";
 
 export {
   iconProfileUser,
@@ -22,4 +23,5 @@ export {
   iconPayHospital,
   iconTicket,
   iconCrown,
+  iconTopBar,
 };

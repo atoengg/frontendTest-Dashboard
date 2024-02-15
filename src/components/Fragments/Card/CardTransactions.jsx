@@ -24,14 +24,14 @@ const CardTransactions = () => {
             >
               <div className="d-flex align-items-center gap-2">
                 <img src={item.icon} alt="" />
-                <div className="d-flex flex-column ">
-                  <p className="fw-semibold">{item.name}</p>
+                <div className="d-flex flex-column">
+                  <p className="fw-semibold ">{item.name}</p>
                   <p>{item.time}</p>
                 </div>
               </div>
               <div className="d-flex gap-3 justify-content-center">
-                <p className="fw-semibold">{item.price}</p>
-                <BsThreeDotsVertical />
+                <p className="fw-semibold ">{item.price}</p>
+                <BsThreeDotsVertical className="mt-1" />
               </div>
             </div>
             <hr className="mt-2" />

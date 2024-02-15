@@ -13,16 +13,19 @@ const CardSpending = () => {
         </div>
 
         {dataSpending?.map((item, index) => (
-          <div
-            className="d-flex align-items-center flex-row gap-3 mt-2"
-            key={index}
-          >
-            <img src={item.icon} alt="" />
-            <div className="d-flex flex-column">
-              <p className="fw-semibold mt-2">{item.title}</p>
-              <p className="">{item.time}</p>
+          <>
+            <div
+              className="d-flex align-items-center flex-row gap-3 mt-2"
+              key={index}
+            >
+              <img src={item.icon} alt="" />
+              <div className="d-flex flex-column">
+                <p className="fw-semibold mt-2">{item.title}</p>
+                <p className="">{item.time}</p>
+              </div>
             </div>
-          </div>
+            <hr className="mt-0" />
+          </>
         ))}
 
         <div className="d-flex flex-row view__all align-items-center justify-content-center mt-3">

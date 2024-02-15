@@ -1,3 +1,5 @@
+/*styling card total balance */
+
 .home .col-lg-8 .row .col-lg-6 .d-flex h5 {
   font-size: 16px;
 }
@@ -27,6 +29,8 @@
   font-weight: 500;
 }
 
+/* styling card visa */
+
 .home .col-lg-8 .row .col-lg-6 .card__visa {
   background-color: #7240e8;
 }
@@ -48,6 +52,8 @@
 .home .col-lg-8 .row .col-lg-6 .card__visa p {
   margin-bottom: -2px;
 }
+
+/* styling card card items buy */
 
 .home .col-lg-8 .card__itemsBuy h5 {
   font-size: 16px;
@@ -78,6 +84,8 @@
 .home .col-lg-8 .card__itemsBuy .checkbox_item .col .form-check input {
   font-size: 14px;
 }
+
+/* styling card chat */
 
 .home .col-lg-8 .card__chat h5 {
   font-size: 16px;
@@ -117,6 +125,8 @@
 .home .col-lg-8 .card__chat .wrapp__message form .btn__send__chat {
   background-color: #0085ff;
 }
+
+/* styling card transactions */
 
 .home .col-lg-8 .card__transactions h5 {
   font-size: 16px;
@@ -165,6 +175,8 @@
   color: #9d9fa9;
 }
 
+/* styling card card analytics */
+
 .home .col-lg-8 .card__analytics h5 {
   font-size: 16px;
 }
@@ -181,6 +193,8 @@
   color: #9d9fa9;
   font-size: 14px;
 }
+
+/* styling card card expenses */
 
 .home .col-lg-4 .card__expenses h5 {
   font-size: 20px;
@@ -205,6 +219,8 @@
   margin-bottom: -2px;
 }
 
+/* styling card spending */
+
 .home .col-lg-4 .card__spending .d-flex img {
   width: 40px;
   height: 40px;
@@ -224,6 +240,8 @@
   color: #0085ff;
   cursor: pointer;
 }
+
+/* styling card premium */
 
 .home .col-lg-4 .card__premium img {
   width: 60px;
