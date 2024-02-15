@@ -21,7 +21,7 @@ body {
 }
 
 .sidebar .offcanvass .d-grid .sidebarChat svg {
-  padding: 4px;
+  padding: 6px 0;
   background-color: #fed7aa;
   color: black;
   border-radius: 100%;

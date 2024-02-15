@@ -22,7 +22,7 @@ const Sidebar = () => {
           </div>
           <div className="d-grid wrapper align-items-stretch ">
             <div className="sidebarChat text-center">
-              <BsChatRightDots size={35} />
+              <BsChatRightDots size={30} />
             </div>
             <div className="offcanvass-body d-grid align-items-stretch mt-4">
               <ul className="menu d-grid justify-content-center align-items-center mx-auto p-0">
