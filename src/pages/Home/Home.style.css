@@ -1,0 +1,258 @@
+/*styling card total balance */
+
+.home .col-lg-8 .row .col-lg-6 .d-flex h5 {
+  font-size: 16px;
+}
+
+.home .col-lg-8 .row .col-lg-6 .d-flex .dropdown button {
+  background-color: #f4f5fa;
+  font-size: 14px;
+}
+
+.home .col-lg-8 .row .col-lg-6 .bg-white .row .col-lg-3 .earnings {
+  font-size: 8px;
+  color: #9d9fa9;
+}
+
+.home .col-lg-8 .row .col-lg-6 .bg-white .row .col-lg-3 h5 {
+  font-size: 30px;
+}
+
+.home .col-lg-8 .row .col-lg-6 .bg-white .row .col-lg-3 .d-flex img {
+  width: 40px;
+  height: 40px;
+}
+
+.home .col-lg-8 .row .col-lg-6 .bg-white .row .col-lg-3 .d-flex p {
+  font-size: 10px;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+}
+
+/* styling card visa */
+
+.home .col-lg-8 .row .col-lg-6 .card__visa {
+  background-color: #7240e8;
+}
+
+.home .col-lg-8 .row .col-lg-6 .card__visa h1 {
+  color: #fff;
+  font-size: 24px;
+}
+
+.home .col-lg-8 .row .col-lg-6 .card__visa h1:nth-child(2) {
+  font-style: italic;
+}
+
+.home .col-lg-8 .row .col-lg-6 .card__visa .iconVisa {
+  height: 70%;
+  width: 70%;
+}
+
+.home .col-lg-8 .row .col-lg-6 .card__visa p {
+  margin-bottom: -2px;
+}
+
+/* styling card card items buy */
+
+.home .col-lg-8 .card__itemsBuy h5 {
+  font-size: 16px;
+}
+
+.home .col-lg-8 .card__itemsBuy .d-flex h4 {
+  margin-bottom: -1px;
+}
+
+.home .col-lg-8 .card__itemsBuy .d-flex .siku span {
+  color: #9d9fa9;
+}
+
+.home .col-lg-8 .card__itemsBuy .d-flex p {
+  font-size: 12px;
+  color: #9d9fa9;
+}
+
+.home .col-lg-8 .card__itemsBuy .shopping__list p:nth-child(2) {
+  cursor: pointer;
+}
+
+.home .col-lg-8 .card__itemsBuy .checkbox_item .col .form-check {
+  background-color: #f4f5fa;
+}
+
+.home .col-lg-8 .card__itemsBuy .checkbox_item .col .form-check label,
+.home .col-lg-8 .card__itemsBuy .checkbox_item .col .form-check input {
+  font-size: 14px;
+}
+
+/* styling card chat */
+
+.home .col-lg-8 .card__chat h5 {
+  font-size: 16px;
+}
+
+.home .col-lg-8 .card__chat .wrapp__chat__right {
+  background-color: #0085ff;
+  border-radius: 10px 10px 0 10px;
+}
+
+.home .col-lg-8 .card__chat .wrapp__chat__right p {
+  font-size: 14px;
+}
+
+.home .col-lg-8 .card__chat .wrapp__chat__left {
+  background-color: #f4f5fa;
+  border-radius: 10px 10px 10px 0;
+}
+
+.home .col-lg-8 .card__chat .wrapp__chat__left p {
+  font-size: 14px;
+}
+
+.home .col-lg-8 .card__chat .wrapp__message form input {
+  background-color: #f4f5fa;
+  font-size: 14px;
+}
+
+.home .col-lg-8 .card__chat .wrapp__message form input:focus {
+  border: none;
+}
+
+.home .col-lg-8 .card__chat .wrapp__message {
+  background-color: #f4f5fa;
+}
+
+.home .col-lg-8 .card__chat .wrapp__message form .btn__send__chat {
+  background-color: #0085ff;
+}
+
+/* styling card transactions */
+
+.home .col-lg-8 .card__transactions h5 {
+  font-size: 16px;
+}
+
+.home .col-lg-8 .card__transactions hr {
+  margin-top: -2px;
+}
+
+.home .col-lg-8 .card__transactions .d-flex .gap-3 p {
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.home
+  .col-lg-8
+  .card__transactions
+  .list__transaction__user
+  .d-flex
+  .flex-column
+  p:nth-child(1) {
+  margin-bottom: -1px;
+}
+.home .col-lg-8 .card__transactions .list__transaction__user .d-flex img {
+  width: 40px;
+  height: 40px;
+}
+.home
+  .col-lg-8
+  .card__transactions
+  .list__transaction__user
+  .d-flex
+  .flex-column
+  p {
+  font-size: 14px;
+}
+
+.home
+  .col-lg-8
+  .card__transactions
+  .list__transaction__user
+  .d-flex
+  .flex-column
+  p:nth-child(2) {
+  font-size: 12px;
+  color: #9d9fa9;
+}
+
+/* styling card card analytics */
+
+.home .col-lg-8 .card__analytics h5 {
+  font-size: 16px;
+}
+
+.home .col-lg-8 .card__analytics .d-flex {
+  top: 70%;
+}
+
+.home .col-lg-8 .card__analytics .d-flex p {
+  font-size: 24px;
+}
+
+.home .col-lg-8 .card__analytics .d-flex p span {
+  color: #9d9fa9;
+  font-size: 14px;
+}
+
+/* styling card card expenses */
+
+.home .col-lg-4 .card__expenses h5 {
+  font-size: 20px;
+}
+
+.home .col-lg-4 .card__expenses .d-flex .flex-column p:nth-child(1) {
+  font-size: 14px;
+  margin-bottom: 2px;
+}
+
+.home .col-lg-4 .card__expenses .d-flex .flex-column h6 {
+  font-size: 20px;
+}
+
+.home .col-lg-4 .card__expenses .d-flex .flex-column p:nth-child(3) {
+  font-size: 12px;
+  margin-top: -2px;
+  color: #9d9fa9;
+}
+
+.home .col-lg-4 .card__expenses .d-flex .flex-column p:nth-child(2) {
+  margin-bottom: -2px;
+}
+
+/* styling card spending */
+
+.home .col-lg-4 .card__spending .d-flex img {
+  width: 40px;
+  height: 40px;
+}
+
+.home .col-lg-4 .card__spending .d-flex .flex-column p:nth-child(1) {
+  font-size: 16px;
+  margin-bottom: -2px;
+}
+
+.home .col-lg-4 .card__spending .d-flex .flex-column p:nth-child(2) {
+  font-size: 12px;
+  color: #9d9fa9;
+}
+
+.home .col-lg-4 .card__spending .view__all p {
+  color: #0085ff;
+  cursor: pointer;
+}
+
+/* styling card premium */
+
+.home .col-lg-4 .card__premium img {
+  width: 60px;
+  height: 60px;
+}
+
+.home .col-lg-4 .card__premium h5 {
+  font-size: 18px;
+}
+
+.home .col-lg-4 .card__premium .text__update {
+  font-size: 14px;
+  color: #9d9fa9;
+}

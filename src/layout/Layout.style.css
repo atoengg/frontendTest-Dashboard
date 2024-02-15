@@ -1,0 +1,98 @@
+body {
+  margin: 0;
+}
+
+.sidebar {
+  background-color: #ffffff;
+  bottom: 0;
+  height: 100vh;
+  width: 10vw;
+  position: fixed;
+  top: 0;
+  transition: left 0.5s ease-out;
+  font-family: "Inter", sans-serif;
+}
+.sidebar .offcanvass .offcanvas-header {
+  padding: 0px 30px;
+}
+
+.sidebar .offcanvass .offcanvas-header h1 {
+  width: 100%;
+}
+
+.sidebar .offcanvass .d-grid .sidebarChat svg {
+  padding: 4px;
+  background-color: #fed7aa;
+  color: black;
+  border-radius: 100%;
+}
+
+.sidebar .offcanvass .d-grid .offcanvass-body .menu {
+  background: #f4f5fa;
+  border-radius: 30px;
+  list-style: none;
+}
+
+.sidebar .menu .sidebar-link {
+  align-items: center;
+  border-radius: 0.5rem;
+  color: black;
+  display: block;
+  display: flex;
+  font-size: 1rem;
+  padding: 0.7rem 1rem;
+  text-decoration: none;
+  transition: all 0.5s;
+  font-weight: 500;
+}
+
+.sidebar .menu .sidebar-link .iconNavbar svg {
+  width: 16px;
+  height: 16px;
+}
+
+.sidebar .menu .sidebar-link i:before {
+  vertical-align: top;
+}
+
+.sidebar .menu .sidebar-link:hover {
+  color: #ffffff;
+  background-color: #0085ff;
+  border-radius: 50%;
+}
+
+.sidebar .menu .sidebar-link.active {
+  background-color: #0085ff;
+  color: white;
+  border-radius: 50%;
+}
+
+.offcanvas-header {
+  height: 15vh;
+}
+
+.offcanvass-body .menu {
+  height: 50vh;
+}
+
+.offcanvass-body {
+  height: 60vh;
+}
+
+.sidebar .offcanvass .d-grid .d-flex img {
+  width: 40px;
+  height: 40px;
+}
+
+.sidebar .offcanvass .d-grid .d-flex svg {
+  width: 18px;
+  height: 18px;
+}
+
+main {
+  min-height: 100vh;
+  width: 90vw;
+  float: right;
+  background: #f4f5fa;
+  padding: 0px 35px;
+}
