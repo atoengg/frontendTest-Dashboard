@@ -5,11 +5,11 @@ import CardVisa from "../../components/Fragments/Card/CardVisa";
 import CardTotalBalance from "../../components/Fragments/Card/CardTotalBalance";
 import CardItemBuy from "../../components/Fragments/Card/CardItemBuy";
 import CardChat from "../../components/Fragments/Card/CardChat";
-import { BsThreeDotsVertical } from "react-icons/bs";
-import { dataListTransaction } from "../../components/DataComponents/DataComponents";
-
 import CardTransactions from "../../components/Fragments/Card/CardTransactions";
 import CardAnalytics from "../../components/Fragments/Card/CardAnalytics";
+import CardExpenses from "../../components/Fragments/Card/CardExpenses";
+import CardSpending from "../../components/Fragments/Card/CardSpending";
+import CardPremium from "../../components/Fragments/Card/CardPremium";
 
 const Home = () => {
   return (
@@ -43,8 +43,12 @@ const Home = () => {
             </div>
           </div>
         </div>
-        <div className="col-lg-4">
-          <p>kanan</p>
+        <div className="col-lg-4 bg-white rounded-3 p-3">
+          <CardExpenses />
+
+          <CardSpending />
+
+          <CardPremium />
         </div>
       </section>
     </Layout>

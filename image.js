@@ -5,6 +5,10 @@ import iconPersonChat2 from "./src/assets/personChat.svg";
 import iconDocChat from "./src/assets/choiseChat.svg";
 import iconUser1 from "./src/assets/iconUser1.png";
 import iconUser2 from "./src/assets/iconUser2.png";
+import iconOnlineStore from "./src/assets/onlineStore.png";
+import iconPayHospital from "./src/assets/payHospital.png";
+import iconTicket from "./src/assets/ticket.png";
+import iconCrown from "./src/assets/crown.png";
 
 export {
   iconProfileUser,
@@ -14,4 +18,8 @@ export {
   iconDocChat,
   iconUser1,
   iconUser2,
+  iconOnlineStore,
+  iconPayHospital,
+  iconTicket,
+  iconCrown,
 };

@@ -181,3 +181,60 @@
   color: #9d9fa9;
   font-size: 14px;
 }
+
+.home .col-lg-4 .card__expenses h5 {
+  font-size: 20px;
+}
+
+.home .col-lg-4 .card__expenses .d-flex .flex-column p:nth-child(1) {
+  font-size: 14px;
+  margin-bottom: 2px;
+}
+
+.home .col-lg-4 .card__expenses .d-flex .flex-column h6 {
+  font-size: 20px;
+}
+
+.home .col-lg-4 .card__expenses .d-flex .flex-column p:nth-child(3) {
+  font-size: 12px;
+  margin-top: -2px;
+  color: #9d9fa9;
+}
+
+.home .col-lg-4 .card__expenses .d-flex .flex-column p:nth-child(2) {
+  margin-bottom: -2px;
+}
+
+.home .col-lg-4 .card__spending .d-flex img {
+  width: 40px;
+  height: 40px;
+}
+
+.home .col-lg-4 .card__spending .d-flex .flex-column p:nth-child(1) {
+  font-size: 16px;
+  margin-bottom: -2px;
+}
+
+.home .col-lg-4 .card__spending .d-flex .flex-column p:nth-child(2) {
+  font-size: 12px;
+  color: #9d9fa9;
+}
+
+.home .col-lg-4 .card__spending .view__all p {
+  color: #0085ff;
+  cursor: pointer;
+}
+
+.home .col-lg-4 .card__premium img {
+  width: 60px;
+  height: 60px;
+}
+
+.home .col-lg-4 .card__premium h5 {
+  font-size: 18px;
+}
+
+.home .col-lg-4 .card__premium .text__update {
+  font-size: 14px;
+  color: #9d9fa9;
+}
